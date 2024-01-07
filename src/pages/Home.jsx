@@ -1,3 +1,4 @@
+import { Toaster } from "sonner";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -8,8 +9,10 @@ const Home = () => {
     <div className="">
       <Navbar />
       <Banner />
-      <Slider />
+      <Slider category="Popular" />
+      <Slider category="Recommended" />
       <Footer />
+      <Toaster />
     </div>
   );
 };
