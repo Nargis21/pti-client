@@ -54,7 +54,7 @@ const Navbar = () => {
         )}
       </div>
 
-      <FaCircleUser className="text-orange-600 text-3xl hidden lg:flex md:flex items-end justify-end w-full col-span-1" />
+      <FaCircleUser className="text-orange-600 text-4xl hidden lg:flex md:flex items-end justify-end w-full col-span-1" />
     </div>
   );
 };
