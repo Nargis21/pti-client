@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
-    <div className="bg-gray-100 lg:px-28 md:px-16 px-2 py-6 grid grid-cols-12 gap-2 items-center">
+    <div className="bg-gray-100 lg:px-28 md:px-16 px-2 py-6 grid grid-cols-12 gap-2 items-center justify-center">
       <p className="lg:text-3xl text-2xl font-bold col-span-2">pti.</p>
       <div className="relative col-span-6">
         <input
