@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -19,7 +20,6 @@ const ResponsiveSlider = ({ category }) => {
 
   const popularFoods = foods?.filter((food) => food.IsPopular);
   const recommendedFoods = foods?.filter((food) => food.IsRecommended);
-  console.log(popularFoods, recommendedFoods);
   let foodInfo;
   if (category == "Popular") {
     foodInfo = popularFoods;

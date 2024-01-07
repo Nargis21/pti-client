@@ -1,4 +1,4 @@
-import bannerImage from "../assets/images/image1.png";
+import bannerImage from "../assets/images/Image1.png";
 const Banner = () => {
   return (
     <div className="bg-gray-100 lg:px-28 md:px-16 px-2 lg:py-24 md:py-16 py-12">

@@ -2,7 +2,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import footerImage from "../assets/images/image2.png";
+import footerImage from "../assets/images/Image2.png";
 
 const Footer = () => {
   return (
