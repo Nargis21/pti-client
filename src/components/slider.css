@@ -1,0 +1,22 @@
+.test{
+    color: red;
+}
+.slick-next,
+.slick-prev {
+    /* Basic positioning */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    /* Styling arrows */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slick-next {
+    right: 5px;
+}
