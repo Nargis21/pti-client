@@ -8,12 +8,12 @@ const Navbar = () => {
 
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
-    <div className="bg-gray-100 lg:px-24 md:px-16 px-2 py-6 grid grid-cols-12 gap-2 items-center">
+    <div className="bg-gray-100 lg:px-28 md:px-16 px-2 py-6 grid grid-cols-12 gap-2 items-center">
       <p className="lg:text-3xl text-2xl font-bold col-span-2">pti.</p>
       <div className="relative col-span-6">
         <input
           type="search"
-          className="py-3 px-6 rounded-lg pl-10 focus:outline-none w-full"
+          className="lg:py-3 py-2 px-6 rounded-lg pl-10 focus:outline-none w-full"
           placeholder="Search Audiobook"
         />
         <button className="absolute left-3 top-1/2 transform -translate-y-1/2">
@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
       <div className="relative col-span-3">
         <button
-          className="bg-white font-bold py-3 px-4 rounded-lg inline-flex items-center"
+          className="bg-white font-bold lg:py-3 py-2 px-4 rounded-lg inline-flex items-center"
           onClick={toggleDropdown}
         >
           MENU
